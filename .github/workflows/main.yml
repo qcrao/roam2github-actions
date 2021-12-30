@@ -6,7 +6,7 @@ on:
       - master
   schedule:
       # Here you can change how often your backup runs. See https://crontab.guru/examples.html
-      - cron: "1 * * * *"
+      - cron: "0 */12 * * *"
 
 jobs:
   backup:
